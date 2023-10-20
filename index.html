@@ -7,21 +7,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
     <link rel="stylesheet" href="css/style.css">
-    <script>
-        // Функция для установки мета-тега в зависимости от ширины экрана
-        function setViewportMetaTag() {
-            const viewportTag = document.querySelector('meta[name="viewport"]');
-            if (window.innerWidth > 1200) {
-                viewportTag.setAttribute('content', 'width=1200');
-            } else {
-                viewportTag.setAttribute('content', 'width=device-width, initial-scale=1.0');
-            }
-        }
-
-        // Вызывайте функцию при загрузке страницы и при изменении размера окна
-        window.addEventListener('load', setViewportMetaTag);
-        window.addEventListener('resize', setViewportMetaTag);
-    </script>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
