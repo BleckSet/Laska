@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Laska</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        // Функция для установки мета-тега в зависимости от ширины экрана
+        function setViewportMetaTag() {
+            const viewportTag = document.querySelector('meta[name="viewport"]');
+            if (window.innerWidth > 1200) {
+                viewportTag.setAttribute('content', 'width=1200');
+            } else {
+                viewportTag.setAttribute('content', 'width=device-width, initial-scale=1.0');
+            }
+        }
+
+        // Вызывайте функцию при загрузке страницы и при изменении размера окна
+        window.addEventListener('load', setViewportMetaTag);
+        window.addEventListener('resize', setViewportMetaTag);
+    </script>
+</head>
+<body>
+    <header>
+        <div class="burger_inner">
+            <ul class="header_nav burger">
+                <li class="title">
+                    <a href="">
+
+                        <h4>Новинки</h4>
+                    </a>
+                </li>
+                <li class="title">
+                    <a href="shop.html">
+
+                        <h4>Каталог</h4>
+                    </a>
+                </li>
+                <li class="title">
+                    <a href="lookbook.html">
+
+                        <h4>Lookbook</h4>
+                    </a>
+                </li>
+            <li class="title">
+                <a href="uslugi.html">
+
+                    <h4>Услуги</h4>
+                </a>
+            </li>
+            <li class="title">
+                <a href="">
+
+                    <h4>Покупателям</h4>
+                </a>
+            </li>
+        </ul>
+         
+        </div>    
+        <div class="header_inner container ">
+        
+            <div class="burger ">
+                <span></span><span></span><span></span>
+                </div>
+            <ul class="header_nav">
+                <li class="title">
+                    <a href="">
+
+                        <h4>Новинки</h4>
+                    </a>
+                </li>
+                <li class="title">
+                    <a href="shop.html">
+
+                        <h4>Каталог</h4>
+                    </a>
+                </li>
+                <li class="title">
+                    <a href="lookbook.html">
+
+                        <h4>Lookbook</h4>
+                    </a>
+                </li>
+            </ul>
+
+
+            <div class="logo">
+                    <img src="img/icon/logo.png" alt="">
+            </div>
+            <ul class="header_nav">
+                <li class="title">
+                    <a href="uslugi.html">
+
+                        <h4>Услуги</h4>
+                    </a>
+                </li>
+                <li class="title">
+                    <a href="">
+
+                        <h4>Покупателям</h4>
+                    </a>
+                </li>
+             
+            </ul>
+            <img  class="cart" src="img/dest/img_cart.svg" alt="">
+        </div>
+
+    </header>
+    <div class="wrapper">
+            <section class="intro">
+                <div class="container">
+            <div class="intro_inner">
+
+                    <div class="intro_info">
+                        <div class="title">
+                            <h1>
+                                ДИЗАЙНЕРСКАЯ <br>
+                                МЕХОВАЯ ОДЕЖДА
+                            </h1>
+                        </div>
+                        <div class="title">
+                            <h2>
+                                Полноценный бренд, который создаёт верхнюю  
+                                одежду и аксессуары высшего качества, 
+                                повышая уровень российского производства
+                            </h2>
+                        </div>
+
+
+                        <a href="" class="btn">
+                            <div class="title">
+
+                                <h4>Перейти в каталог</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <img src="img/dest/intro.jpg" alt="">
+                </div>
+</div>
+
+            </section>  
+            
+            <section class="intro_new">
+                <div class="container">
+
+                    <div class="title flex">
+                        <h1>НОВИНКИ</h1>
+                        <h3>Смотреть все новинки</h3>
+                    </div>
+
+                    <div class="show">
+                        <div class="show_item">
+                            <img src="img/dest/intro.jpg" alt="">
+                            <h5 class="intro_product-name">
+                                Бомбер POPOV FUR
+                            </h5>
+                            <h6 class="intro_product-price">
+                                155 900 р.
+                            </h6>
+                        </div>  
+                        <div class="show_item">
+                            <img src="img/dest/intro.jpg" alt="">
+                            <h5 class="intro_product-name">
+                                Бомбер POPOV FUR
+                            </h5>
+                            <h6 class="intro_product-price">
+                                155 900 р.
+                            </h6>
+                        </div> 
+                        <div class="show_item">
+                            <img src="img/dest/intro.jpg" alt="">
+                            <h5 class="intro_product-name">
+                                Бомбер POPOV FUR
+                            </h5>
+                            <h6 class="intro_product-price">
+                                155 900 р.
+                            </h6>
+                        </div> 
+                        <div class="show_item">
+                            <img src="img/dest/intro.jpg" alt="">
+                            <h5 class="intro_product-name">
+                                Бомбер POPOV FUR
+                            </h5>
+                            <h6 class="intro_product-price">
+                                155 900 р.
+                            </h6>
+                        </div> 
+                        <div class="show_item">
+                            <img src="img/dest/intro.jpg" alt="">
+                            <h5 class="intro_product-name">
+                                Бомбер POPOV FUR
+                            </h5>
+                            <h6 class="intro_product-price">
+                                155 900 р.
+                            </h6>
+                        </div> 
+                    </div>
+
+
+                </div>
+
+
+                
+            </section>
+            <section class="catalog">
+                <div class="container">
+
+                <div class="title flex">
+                    <h1>Каталог</h1>
+                    <h3>Смотреть весь каталог</h3>
+                </div>
+                    <div class="catalog_inner">
+                            <div class="catalog_item">
+                                <div class="num">  <div class="title">
+                                    <h2>
+                                       01.
+                                    </h2>
+                                </div></div>
+                                <div class="title">
+                                    <h2>
+                                        пуховики
+
+                                    </h2>
+                                </div>
+                                <div class="show">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                        <path d="M1 18L18 1M18 1V17.32M18 1H1.68" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </div>
+                            </div>
+                          
+                            <div class="catalog_item">
+                                <div class="num">  <div class="title">
+                                    <h2>
+                                       01.
+                                    </h2>
+                                </div></div>
+                                <div class="title">
+                                    <h2>
+                                        пуховики
+
+                                    </h2>
+                                </div>
+                                <div class="show">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                        <path d="M1 18L18 1M18 1V17.32M18 1H1.68" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </div>
+                            </div>
+                            
+                            <div class="catalog_item">
+                                <div class="num">  <div class="title">
+                                    <h2>
+                                       01.
+                                    </h2>
+                                </div></div>
+                                <div class="title">
+                                    <h2>
+                                        пуховики
+
+                                    </h2>
+                                </div>
+                                <div class="show">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                        <path d="M1 18L18 1M18 1V17.32M18 1H1.68" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </div>
+                            </div>
+                            
+                            <div class="catalog_item">
+                                <div class="num">  <div class="title">
+                                    <h2>
+                                       01.
+                                    </h2>
+                                </div></div>
+                                <div class="title">
+                                    <h2>
+                                        пуховики
+
+                                    </h2>
+                                </div>
+                                <div class="show">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                        <path d="M1 18L18 1M18 1V17.32M18 1H1.68" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </div>
+                            </div>
+                            
+                            <div class="catalog_item">
+                                <div class="num">  <div class="title">
+                                    <h2>
+                                       01.
+                                    </h2>
+                                </div></div>
+                                <div class="title">
+                                    <h2>
+                                        пуховики
+
+                                    </h2>
+                                </div>
+                                <div class="show">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                        <path d="M1 18L18 1M18 1V17.32M18 1H1.68" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </div>
+                            </div>
+                            
+                            <div class="catalog_item">
+                                <div class="num">  <div class="title">
+                                    <h2>
+                                       01.
+                                    </h2>
+                                </div></div>
+                                <div class="title">
+                                    <h2>
+                                        пуховики
+
+                                    </h2>
+                                </div>
+                                <div class="show">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                        <path d="M1 18L18 1M18 1V17.32M18 1H1.68" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </div>
+                            </div>
+                            
+                            <div class="catalog_item">
+                                <div class="num">  <div class="title">
+                                    <h2>
+                                       01.
+                                    </h2>
+                                </div></div>
+                                <div class="title">
+                                    <h2>
+                                        пуховики
+
+                                    </h2>
+                                </div>
+                                <div class="show">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                        <path d="M1 18L18 1M18 1V17.32M18 1H1.68" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </div>
+                            </div>
+                            
+                            <div class="catalog_item">
+                                <div class="num">  <div class="title">
+                                    <h2>
+                                       01.
+                                    </h2>
+                                </div></div>
+                                <div class="title">
+                                    <h2>
+                                        пуховики
+
+                                    </h2>
+                                </div>
+                                <div class="show">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                                        <path d="M1 18L18 1M18 1V17.32M18 1H1.68" stroke="#252525" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </div>
+                            </div>
+                            
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="sale">
+                <div class="container">
+                    <div class="sale_inner">
+                        <div class="sale_info">
+                            <div class="title">
+                                <h6>скидка 15% </h6>
+                            </div>
+                            <div class="title">
+                                <h2>Получи скидку по промокоду 
+                                    на первый заказ</h2>
+                            </div>
+                          <a href="" class="btn white">
+                            <h4>Получить скидку</h4>
+                          </a>
+                        </div>
+                        <img src="img/dest/intro.jpg" alt="">
+                    </div>  
+                </div>
+            </section>
+
+            <section class="advantages">
+                <div class="container">
+                    <div class="advantages_inner">
+                        <div class="advantages-item">
+                              <div class="title">
+                                <h2>
+                                    свое производство
+                                </h2>
+                              </div>
+                              
+                              <div class="title">
+                                <h4>
+                                    Все изделия создаются 
+                                    и отшиваются в собственном 
+                                    швейном цехе, который 
+                                    находится в городе Саратов
+                                </h4>
+                              </div>
+                        </div>
+                            <div class="advantages-item">
+                                <div class="title">
+                                <h2>
+                                    свое производство
+                                </h2>
+                                </div>
+                                
+                                <div class="title">
+                                <h4>
+                                    Все изделия создаются 
+                                    и отшиваются в собственном 
+                                    швейном цехе, который 
+                                    находится в городе Саратов
+                                </h4>
+                                </div>
+                        </div>
+                      <div class="advantages-item">
+                        <img src="img/dest/intro.jpg" alt="">
+                  </div>
+                     
+                  <div class="advantages-item">
+                    <img src="img/dest/intro.jpg" alt="">
+              </div>
+              <div class="advantages-item">
+                <div class="title">
+                <h2>
+                    свое производство
+                </h2>
+                </div>
+                
+                <div class="title">
+                <h4>
+                    Все изделия создаются 
+                    и отшиваются в собственном 
+                    швейном цехе, который 
+                    находится в городе Саратов
+                </h4>
+                </div>
+        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="collection">
+                <div class="container">
+                    
+                    <div class="collection_title">
+                              <div class="title">
+                        <h1>Коллекция</h1>
+                    </div>
+
+                    <div class="collection_arrow">
+                        
+                     <div class="l_arrow">
+                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.8" d="M19.9168 10.1926L1.00097 9.6289M1.00097 9.6289L10.3355 1.34532M1.00097 9.6289L9.82566 18.4536" stroke="#F6F6F6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                     </div>
+                     <div class="r_arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                            <path opacity="0.8" d="M1.00078 9.91451H19.925M19.925 9.91451L10.8414 18.4724M19.925 9.91451L10.8414 1.35658" stroke="#F6F6F6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                     </div>
+                    </div>
+                </div>    
+
+                    <div class="collection_slider">
+                            <div class="collection_item">
+
+                                    <img src="img/dest/intro.jpg" alt="">
+                                    <h6>новослободская</h6>
+                            </div>
+                            <div class="collection_item">
+
+                                    <img src="img/dest/intro.jpg" alt="">
+                                    <h6>новослободская</h6>
+                            </div>
+                            <div class="collection_item">
+
+                                    <img src="img/dest/intro.jpg" alt="">
+                                    <h6>новослободская</h6>
+                            </div>
+                            <div class="collection_item">
+
+                                    <img src="img/dest/intro.jpg" alt="">
+                                    <h6>новослободская</h6>
+                            </div>
+                            <div class="collection_item">
+
+                                    <img src="img/dest/intro.jpg" alt="">
+                                    <h6>новослободская</h6>
+                            </div>
+                            <div class="collection_item">
+
+                                    <img src="img/dest/intro.jpg" alt="">
+                                    <h6>новослободская</h6>
+                            </div>
+                            <div class="collection_item">
+
+                                    <img src="img/dest/intro.jpg" alt="">
+                                    <h6>новослободская</h6>
+                            </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="accordion">
+                    <div class="container">
+                        <div class="title">
+                            <h1 > покупателям</h1>
+                        </div>
+                         
+                        <div class="accordion">
+    
+                          
+                         
+                        <div class="accordion_inner">
+                            <h3> Оплата заказа</h3>
+                           
+                          <div class="accordion-content">
+                            <p>Курьерская доставка по России
+                                Срок доставки и стоимость рассчитывается согласно правилам транспортной компании, учитывая город покупателя (СДЭК).
+                                Оплата картой курьеру или на сайте.
+                                
+                                Доставка по Саратову
+                                Курьерская доставка или самовывоз из магазина.
+                                Оплата наличными или банковской картой при получении.
+                                
+                                В другие страны
+                                Стоимость и срок доставки в Казахстан и Белоруссию осуществляется транспортной компанией СДЭК.
+                                Стоимость и срок доставки в Европейского союза, США, Канады осуществляется транспортной компанией DHL.
+                            
+                            </p>
+                          </div>
+                          <button class="accordion-button"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <line x1="12.5" y1="2.18557e-08" x2="12.5" y2="25" stroke="black"/>
+                            <line y1="12.5" x2="25" y2="12.5" stroke="black"/>
+                            </svg>
+                        </button>
+                          
+                        </div> 
+                    
+    
+                                
+                        <div class="accordion_inner">
+                            <h3> Оплата заказа</h3>
+                           
+                          <div class="accordion-content">
+                            <p>Курьерская доставка по России
+                                Срок доставки и стоимость рассчитывается согласно правилам транспортной компании, учитывая город покупателя (СДЭК).
+                                Оплата картой курьеру или на сайте.
+                                
+                                Доставка по Саратову
+                                Курьерская доставка или самовывоз из магазина.
+                                Оплата наличными или банковской картой при получении.
+                                
+                                В другие страны
+                                Стоимость и срок доставки в Казахстан и Белоруссию осуществляется транспортной компанией СДЭК.
+                                Стоимость и срок доставки в Европейского союза, США, Канады осуществляется транспортной компанией DHL.
+                            
+                            </p>
+                          </div>
+                          <button class="accordion-button"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <line x1="12.5" y1="2.18557e-08" x2="12.5" y2="25" stroke="black"/>
+                            <line y1="12.5" x2="25" y2="12.5" stroke="black"/>
+                            </svg>
+                        </button>
+                          
+                        </div> 
+                    
+                                
+                        <div class="accordion_inner">
+                            <h3> Оплата заказа</h3>
+                           
+                          <div class="accordion-content">
+                            <p>Курьерская доставка по России
+                                Срок доставки и стоимость рассчитывается согласно правилам транспортной компании, учитывая город покупателя (СДЭК).
+                                Оплата картой курьеру или на сайте.
+                                
+                                Доставка по Саратову
+                                Курьерская доставка или самовывоз из магазина.
+                                Оплата наличными или банковской картой при получении.
+                                
+                                В другие страны
+                                Стоимость и срок доставки в Казахстан и Белоруссию осуществляется транспортной компанией СДЭК.
+                                Стоимость и срок доставки в Европейского союза, США, Канады осуществляется транспортной компанией DHL.
+                            
+                            </p>
+                          </div>
+                          <button class="accordion-button"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <line x1="12.5" y1="2.18557e-08" x2="12.5" y2="25" stroke="black"/>
+                            <line y1="12.5" x2="25" y2="12.5" stroke="black"/>
+                            </svg>
+                        </button>
+                          
+                        </div> 
+                    
+                                
+                        <div class="accordion_inner">
+                            <h3> Оплата заказа</h3>
+                           
+                          <div class="accordion-content">
+                            <p>Курьерская доставка по России
+                                Срок доставки и стоимость рассчитывается согласно правилам транспортной компании, учитывая город покупателя (СДЭК).
+                                Оплата картой курьеру или на сайте.
+                                
+                                Доставка по Саратову
+                                Курьерская доставка или самовывоз из магазина.
+                                Оплата наличными или банковской картой при получении.
+                                
+                                В другие страны
+                                Стоимость и срок доставки в Казахстан и Белоруссию осуществляется транспортной компанией СДЭК.
+                                Стоимость и срок доставки в Европейского союза, США, Канады осуществляется транспортной компанией DHL.
+                            
+                            </p>
+                          </div>
+                          <button class="accordion-button"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <line x1="12.5" y1="2.18557e-08" x2="12.5" y2="25" stroke="black"/>
+                            <line y1="12.5" x2="25" y2="12.5" stroke="black"/>
+                            </svg>
+                        </button>
+                          
+                        </div> 
+                    
+                    </div>
+                    
+                    </div>
+            </section>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/MotionPathPlugin.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script type="text/javascript"  src="js/main.js"></script>
+
+</body>
+</html>
