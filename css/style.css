@@ -81,8 +81,8 @@ html.hold {
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 ul[class],
@@ -316,6 +316,33 @@ header {
   margin-top: -50px;
   height: 100%;
 }
+.intro img {
+  opacity: 0;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+.intro .intro_info .title, .intro .intro_info .btn {
+  opacity: 0;
+}
+
+.intro.visible img {
+  opacity: 1;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.intro.visible .intro_info .title:first-child {
+  opacity: 1;
+}
+.intro.visible .intro_info .title:nth-child(2) {
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+.intro.visible .intro_info .title:last-child, .intro.visible .intro_info .btn {
+  opacity: 1;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
 
 .btn {
   display: block;
@@ -371,6 +398,10 @@ header {
   margin-bottom: 70px;
 }
 
+.intro_info.visible {
+  left: 0;
+}
+
 .title.flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -406,6 +437,9 @@ header {
 }
 
 .show_item {
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  opacity: 0;
   color: #000;
 }
 .show_item h5 {
@@ -426,6 +460,12 @@ header {
   letter-spacing: 0.36px;
 }
 
+.show_item.visible {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
 .catalog_item {
   margin: 0 0 0 auto;
   max-width: 760px;
@@ -438,6 +478,11 @@ header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   border-top: 1px solid #000;
+  opacity: 0;
+}
+
+.catalog_item.visible {
+  opacity: 1;
 }
 
 .catalog_item:last-child {
